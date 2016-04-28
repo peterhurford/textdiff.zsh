@@ -11,7 +11,7 @@ Find the difference between two strings.
 
 *Note:* This was built on a Mac.  Support for Linux is experimental, and has not been tested by the plugin author.
 
-### Oh-My-ZSH
+#### Oh-My-ZSH
 Assuming you have [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), you can simply write
 
 ```bash
