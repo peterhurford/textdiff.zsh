@@ -13,7 +13,7 @@ textdiff() {
     touch ~/textdiff-tmp/2.txt
     echo "$1" > ~/textdiff-tmp/1.txt
     echo "$2" > ~/textdiff-tmp/2.txt
-    if [[ "$TEXTDIFF_USE_ICDIFF" -eq 1 ]]; then
+    if [[ "$TEXTDIFF_USES_ICDIFF" -eq 1 ]]; then
       icdiff ~/textdiff-tmp/1.txt ~/textdiff-tmp/2.txt
     else
       diff ~/textdiff-tmp/1.txt ~/textdiff-tmp/2.txt
