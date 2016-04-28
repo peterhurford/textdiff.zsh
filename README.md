@@ -22,13 +22,14 @@ echo "plugins+=(textdiff)" >> ~/.zshrc
 (Alternatively, you can place the `textdiff` plugin in the `plugins=(...)` local manually.)
 
 -
-### Antigen
+
+#### Antigen
 Add `antigen bundle peterhurford/textdiff.zsh` to your `.zshrc` wherever you're adding the other antigen bundles.
 
-### Zgen
+#### Zgen
 If you’re using [Zgen](https://github.com/tarjoilija/zgen), add `zgen load peterhurford/textdiff.zsh` to your `.zshrc` wherever you're adding your other zgen plugins.
 
-### Bash
+#### Bash
 If you're lame and use bash, you can install this directly to your `~/.bash_profile`:
 
 ```bash
@@ -36,6 +37,6 @@ curl -s https://raw.githubusercontent.com/peterhurford/textdiff.zsh/master/textd
 ```````
 
 
-#### Integration with icdiff
+## Integration with icdiff
 
 To use [icdiff](https://www.jefftk.com/icdiff) instead of `diff`, set `export TEXTDIFF_USES_ICDIFF=1`.
