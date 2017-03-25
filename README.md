@@ -2,11 +2,6 @@
 
 Find the difference between two strings.
 
-![](http://puu.sh/oysuS/db52ce7bea.png)
-
-![](http://puu.sh/oysE1/d0579e2c3b.png)
-
-
 ## Installation
 
 *Note:* This was built on a Mac.  Support for Linux is experimental, and has not been tested by the plugin author.
