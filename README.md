@@ -16,7 +16,7 @@ echo "plugins+=(textdiff)" >> ~/.zshrc
 
 (Alternatively, you can place the `textdiff` plugin in the `plugins=(...)` local manually.)
 
--
+--
 
 #### Antigen
 Add `antigen bundle peterhurford/textdiff.zsh` to your `.zshrc` wherever you're adding the other antigen bundles.
